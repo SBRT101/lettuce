@@ -41,6 +41,17 @@ function setup() {
   frameRate(45);
   delay = new p5.Delay();
 }
+function mouseClicked(){
+  increase = increase + 0.1
+  yayvol = yayvol + increase
+  if (musevol > 0.1) {
+  musevol = musevol - 0.1
+  } else {
+    musevol = musevol + 2
+  }
+  delay.process(Yay, .0, .9, 5000);
+  Yay.play()
+}
 function draw() {
   if (countertwo === 0) {
     fill (1000,1000,1000);
@@ -405,16 +416,5 @@ function draw() {
   text ("lettuce time", random (1,2000), random (1,2000));
   text ("lettuce time", random (1,2000), random (1,2000));
   counter = counter +1
-}
-function mouseClicked(){
-  increase = increase + 0.1
-  yayvol = yayvol + increase
-  if (musevol > 0.1) {
-  musevol = musevol - 0.1
-  } else {
-    musevol = musevol + 2
-  }
-  delay.process(Yay, .0, .9, 5000);
-  Yay.play()
 }
 }
