@@ -39,7 +39,6 @@ function setup() {
   createCanvas(3000,3000);
   background (100,200,30);
   frameRate(45);
-  delay = new p5.Delay();
 }
 function mouseClicked(){
   increase = increase + 0.1
@@ -49,7 +48,6 @@ function mouseClicked(){
   } else {
     musevol = musevol + 2
   }
-  delay.process(Yay, .0, .9, 5000);
   Yay.play()
 }
 function draw() {
