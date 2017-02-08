@@ -113,12 +113,6 @@ function draw() {
    image(Letuce, random(0,2000), random(0,2000));
    image(Letuce, random(0,2000), random(0,2000));
    image(Letuce, random(0,2000), random(0,2000));
-   image(Letuce, random(0,2000), random(0,2000));
-   image(Letuce, random(0,2000), random(0,2000));
-   image(Letuce, random(0,2000), random(0,2000));
-   image(Letttuce, random(0, 2000), random(0,2000));
-   image(Letttuce, random(0,2000), random(0,2000));
-   image(Letttuce, random(0,2000), random(0,2000));
    image(Letttuce, random(0, 2000), random(0,2000));
    image(Letttuce, random(0,2000), random(0,2000));
    image(Letttuce, random(0,2000), random(0,2000));
@@ -131,9 +125,6 @@ function draw() {
    image(Letttuce, random(0,2000), random(0,2000));
    image(Letttuce, random(0,2000), random(0,2000));
    image(Letttuce, random(0,2000), random(0,2000));
-   image(Lettoce, random(0,2000), random(0,2000));
-   image(Lettoce, random(0,2000), random(0,2000));
-   image(Lettoce, random(0,2000), random(0,2000));
    image(Lettoce, random(0,2000), random(0,2000));
    image(Lettoce, random(0,2000), random(0,2000));
   image(Lettoce, random(0,2000), random(0,2000));
@@ -177,13 +168,7 @@ function draw() {
    image(Leettuce, random(0,2000), random(0,2000));
    image(Leettuce, random(0,2000), random(0,2000));
    image(Leettuce, random(0,2000), random(0,2000));
-   image(Leettuce, random(0,2000), random(0,2000));
-   image(Leettuce, random(0,2000), random(0,2000));
-   image(Leettuce, random(0,2000), random(0,2000));
    image(Lettus, random(0,2000), random(0,2000));
-   image(Leef, random(0,2000), random(0,2000));
-   image(Leef, random(0,2000), random(0,2000));
-   image(Leef, random(0,2000), random(0,2000));
    image(Leef, random(0,2000), random(0,2000));
    image(Leef, random(0,2000), random(0,2000));
    image(Leef, random(0,2000), random(0,2000));
